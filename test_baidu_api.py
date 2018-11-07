@@ -7,13 +7,7 @@ import time
 
 def get_aip():
     # 个人
-    # APP_ID = '11730982'
-    # API_KEY = 'LqrxZCvfiNLbyxjUZrwarogc'
-    # SECRET_KEY = 'AyEQE1cAk1Uvf78Ow749YmIBc0c6Get1'
-    # 上海
-    APP_ID = '11721601'
-    API_KEY = 'BViqXUQutdOBzfuMRtIbc2BH'
-    SECRET_KEY = 'E3kQrAEuy0D1GGwqUPfoKBYWyXz4CCPH'
+
     # 初始化AipFace对象
     aipFace = AipFace(APP_ID, API_KEY, SECRET_KEY)
     return aipFace
